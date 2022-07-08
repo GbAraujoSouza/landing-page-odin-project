@@ -49,8 +49,10 @@ header,
     display: flex;
     color: #f9faf8;
     flex-flow: row nowrap;
+    align-items: center;
     padding: 50px 300px;
     gap: 20px;
+    height: 300px;
 }
 
 .button {
@@ -74,6 +76,9 @@ header,
     color: #e5e7eb;
     gap: 10px;
 }
+.hero-content p {
+    width: 73%;
+}
 
 .hero-content h1 {
     font-size: 48px;
@@ -82,11 +87,13 @@ header,
 
 .image {
     background-color: #6D747D;
-    width: 50%;
-
+    width: 600px;
+    height: 60%;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 .quote {
@@ -95,6 +102,21 @@ header,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.quote-content {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 120px;
+}
+.quote #quote-phrase {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+.quote #author {
+    font-size: 24px;
 }
 
 #author {
