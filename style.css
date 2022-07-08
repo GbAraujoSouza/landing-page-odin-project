@@ -194,5 +194,9 @@ footer{
 }
 footer > a {
     color: unset;
+    text-shadow: 2px 1px 3px #f9faf8;
 }
-
+footer > a:hover {
+    color: #3882f6;
+    text-shadow: 2px 1px 3px #3882f6;
+}
